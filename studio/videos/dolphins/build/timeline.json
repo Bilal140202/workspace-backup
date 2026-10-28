@@ -1,0 +1,310 @@
+{
+ "format": "9x16",
+ "lang": "en",
+ "dur": 79.432,
+ "scenes": [
+  {
+   "id": "hook",
+   "t0": 0.0,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "dolphins",
+       "kind": "draw",
+       "text": "Dolphins need air",
+       "data": {
+        "icon": "bulb"
+       }
+      },
+      {
+       "at_word": "ocean",
+       "kind": "point",
+       "text": "But they live underwater"
+      },
+      {
+       "at_word": "how",
+       "kind": "title",
+       "text": "How do they sleep?"
+      }
+     ]
+    },
+    "phu_de": "Here's a puzzle. | Dolphins are mammals, | so they need air to breathe. | But they live in the ocean. | So how do they sleep | without drowning?"
+   },
+   "voice": {
+    "t0": 0.1,
+    "dur": 9.024,
+    "file": "build/audio/hook.wav"
+   },
+   "text": "Here's a puzzle. Dolphins are mammals, so they need air to breathe. But they live in the ocean. So how do they sleep without drowning?",
+   "t1": 9.374
+  },
+  {
+   "id": "problem",
+   "t0": 9.374,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "breathe",
+       "kind": "draw",
+       "text": "You breathe on autopilot",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "every",
+       "kind": "point",
+       "text": "Dolphins decide every breath"
+      },
+      {
+       "at_word": "fall",
+       "kind": "draw",
+       "text": "Fully asleep = stop breathing",
+       "data": {
+        "icon": "cross"
+       }
+      },
+      {
+       "at_word": "breathing",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "Humans breathe automatically. | You never have to think | about it. | A dolphin's breath is voluntary. | Every single breath | is a conscious decision. | Fall completely asleep, | and a dolphin | would stop breathing."
+   },
+   "voice": {
+    "t0": 9.524,
+    "dur": 13.8,
+    "file": "build/audio/problem.wav"
+   },
+   "text": "Humans breathe automatically. You never have to think about it. A dolphin's breath is voluntary. Every single breath is a conscious decision. Fall completely asleep, and a dolphin would stop breathing.",
+   "t1": 23.574
+  },
+  {
+   "id": "trick",
+   "t0": 23.574,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "half",
+       "kind": "draw",
+       "text": "Half the brain sleeps",
+       "data": {
+        "icon": "network"
+       }
+      },
+      {
+       "at_word": "other",
+       "kind": "point",
+       "text": "One half at a time"
+      },
+      {
+       "at_word": "unihemispheric",
+       "kind": "point",
+       "text": "Unihemispheric slow-wave sleep"
+      },
+      {
+       "at_word": "sleep",
+       "nth": 2,
+       "kind": "highlight",
+       "data": {
+        "target": "point",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "So dolphins evolved | a clever workaround. | They sleep with only half | of their brain at a time. | The other half stays awake. | Scientists call it | unihemispheric slow-wave sleep."
+   },
+   "voice": {
+    "t0": 23.724,
+    "dur": 12.0,
+    "file": "build/audio/trick.wav"
+   },
+   "text": "So dolphins evolved a clever workaround. They sleep with only half of their brain at a time. The other half stays awake. Scientists call it unihemispheric slow-wave sleep.",
+   "t1": 35.974
+  },
+  {
+   "id": "eye",
+   "t0": 35.974,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "duty",
+       "kind": "draw",
+       "text": "Awake half on duty",
+       "data": {
+        "icon": "target"
+       }
+      },
+      {
+       "at_word": "open",
+       "kind": "draw",
+       "text": "One eye open",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "opposite",
+       "kind": "point",
+       "text": "Eye opposite the sleeping half"
+      },
+      {
+       "at_word": "predators",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 1
+       }
+      }
+     ]
+    },
+    "phu_de": "The sleeping half rests, | while the awake half | stays on duty. | And here is the giveaway. | A sleeping dolphin | keeps one eye open. | The eye on the opposite side | of the sleeping half, | watching for predators."
+   },
+   "voice": {
+    "t0": 36.124,
+    "dur": 13.464,
+    "file": "build/audio/eye.wav"
+   },
+   "text": "The sleeping half rests, while the awake half stays on duty. And here is the giveaway. A sleeping dolphin keeps one eye open. The eye on the opposite side of the sleeping half, watching for predators.",
+   "t1": 49.838
+  },
+  {
+   "id": "resting",
+   "t0": 49.838,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "drift",
+       "kind": "draw",
+       "text": "Rests at the surface",
+       "data": {
+        "icon": "stack"
+       }
+      },
+      {
+       "at_word": "rise",
+       "kind": "draw",
+       "text": "Rises to breathe",
+       "data": {
+        "icon": "check"
+       }
+      },
+      {
+       "at_word": "minutes",
+       "kind": "point",
+       "text": "Every few minutes"
+      },
+      {
+       "at_word": "four",
+       "kind": "title",
+       "text": "4 hours per half, per day"
+      }
+     ]
+    },
+    "phu_de": "They drift near the surface, | resting motionless | or swimming slowly, | and rise every few minutes | for a calm, easy breath. | Over a full day, | each half of the brain | gets about four hours of sleep."
+   },
+   "voice": {
+    "t0": 49.988,
+    "dur": 12.0,
+    "file": "build/audio/resting.wav"
+   },
+   "text": "They drift near the surface, resting motionless or swimming slowly, and rise every few minutes for a calm, easy breath. Over a full day, each half of the brain gets about four hours of sleep.",
+   "t1": 62.238
+  },
+  {
+   "id": "calf",
+   "t0": 62.238,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "mothers",
+       "kind": "draw",
+       "text": "New mothers barely sleep",
+       "data": {
+        "icon": "person"
+       }
+      },
+      {
+       "at_word": "month",
+       "kind": "point",
+       "text": "First month with the calf"
+      },
+      {
+       "at_word": "barely",
+       "kind": "highlight",
+       "data": {
+        "target": "draw",
+        "index": 0
+       }
+      }
+     ]
+    },
+    "phu_de": "New mothers | do not get that luxury. | For a whole month | after a calf is born, | mother and baby | barely sleep at all."
+   },
+   "voice": {
+    "t0": 62.388,
+    "dur": 7.344,
+    "file": "build/audio/calf.wav"
+   },
+   "text": "New mothers do not get that luxury. For a whole month after a calf is born, mother and baby barely sleep at all.",
+   "t1": 69.982
+  },
+  {
+   "id": "outro",
+   "t0": 69.982,
+   "data": {
+    "huashu": {
+     "grammar": "y3_whiteboard",
+     "cues": [
+      {
+       "at_word": "half",
+       "kind": "point",
+       "text": "Half a brain asleep"
+      },
+      {
+       "at_word": "eye",
+       "kind": "point",
+       "text": "One eye open"
+      },
+      {
+       "at_word": "still",
+       "kind": "title",
+       "text": "Still breathing."
+      }
+     ]
+    },
+    "phu_de": "Half a brain asleep. | One eye open. | And still breathing. | That is how a dolphin sleeps | without drowning."
+   },
+   "voice": {
+    "t0": 70.132,
+    "dur": 7.8,
+    "file": "build/audio/outro.wav"
+   },
+   "text": "Half a brain asleep. One eye open. And still breathing. That is how a dolphin sleeps without drowning.",
+   "t1": 79.432
+  }
+ ],
+ "subs": [],
+ "style": {
+  "subtitle_style": "box"
+ },
+ "title": "dolphins"
+}

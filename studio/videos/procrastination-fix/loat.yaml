@@ -1,0 +1,28 @@
+# Multi-episode series → one long YouTube video. The episodes inherit format/voice/style below.
+# English keys are used here; the Vietnamese keys (ten, tieu_de, tap, …) also work — see docs/yaml-reference.md.
+name: procrastination-fix
+title: "Long video title"
+tagline: "One-sentence intro shown on the opening card and at the top of the YouTube description"
+format: 16x9
+language: en
+loudness: -14
+voice: { sample: documentarian, volume: 0.65, speed: 1.0, seed: 1234 }
+# music: { file: <path>.mp3, volume: 0.35, duck: true }   # music for the whole long video — xp music add <file> --name bg --use
+opening: { length: 4.5 }                       # title card at the start of the video
+chapter_card: { dai: 3.5, mau: "#ffc46a" }     # "PART n" card before each episode (dai = seconds, mau = colour)
+end_card: { dai: 15, tieu_de: "Thanks for watching", phu_de: "Subscribe to see the next part" }   # ≥ 12 s: room for the YouTube end screen
+hashtags: []                                   # 3–15 hashtags
+publish:                                       # publishing pack (xp publish) — write it together with the script, see references/publishing.md
+  titles: ["… in {phut} minutes"]               # {phut} = the real number of minutes
+  hook: ""                                     # the first 2 lines show in search results
+  topics: auto                                 # auto = the scene titles
+  drama: ""
+  trust: ""
+  tags: []
+episodes:
+  - { folder: tap-01, title: "Part 1 title" }
+  - { folder: tap-02, title: "Part 2 title" }
+  - { folder: tap-03, title: "Part 3 title" }
+  - { folder: tap-04, title: "Part 4 title" }
+  - { folder: tap-05, title: "Part 5 title" }
+  - { folder: tap-06, title: "Part 6 title" }
